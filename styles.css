@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+#instructions {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 10;
+}
+
+canvas {
+    display: block;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 10px;
+    color: #fff; /* White text */
+    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 5px; /* Optional: padding around the text */
+    border-radius: 5px; /* Optional: rounded corners */
+    z-index: 10; /* Ensure it stays on top of the canvas */
+}
